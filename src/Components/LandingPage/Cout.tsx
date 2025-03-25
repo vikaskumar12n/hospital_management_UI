@@ -1,6 +1,6 @@
 export default function Cout() {
     return (
-        <section className="stats-section py-5 ms-5 me-5 ">
+        <section className="stats-section py-5 ms-5 me-5  ">
             <div className="container">
                 <div className="row text-center text-white">
                     <div className="col-md-3">

@@ -8,7 +8,22 @@ export default function PersonalCare() {
                 <div className="row align-items-center">
                     {/* Left Side: Images */}
                     <div className="col-lg-6 d-flex flex-column gap-3">
-                        <div className="d-flex gap-3">
+                        <div className="container">
+                        <div className="row">
+
+  <div className="col-md-6 d-flex flex-column gap-4">
+    <Image src="/images/images/about/img-1.jpg" alt="Smiling patient" width={250} height={200} />
+    <Image src="/images/images/about/img-2.jpg" alt="Doctors working" width={250} height={200} />
+  </div>
+  <div className="col-md-5 gy-2">
+    <Image src="/images/images/about/img-3.jpg" alt="Doctors working" width={250} height={400} />
+  </div>
+</div>
+
+
+
+                        </div>
+                        {/* <div className="d-flex gap-3">
                             <Image src="/images/images/about/img-1.jpg" alt="Smiling patient" width={250} height={200}  />
                             <Image src="/images/images/about/img-3.jpg" alt="Doctors discussing" width={200} height={200} />
                             
@@ -17,7 +32,7 @@ export default function PersonalCare() {
                         <Image src="/images/images/about/img-2.jpg" alt="Medical team" width={250} height={200}  />
                         <Image src="/images/images/about/img-1.jpg" alt="Smiling patient" width={200} height={200}  />
                             
-                        </div>
+                        </div> */}
                        
 
                     </div>

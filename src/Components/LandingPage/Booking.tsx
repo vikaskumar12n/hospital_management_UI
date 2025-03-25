@@ -8,7 +8,7 @@ export default function Booking() {
                     {/* Left: Doctor Image */}
                     <div className="col-md-6">
                         <div className="doctor-image">
-                            <Image src="/images/images/about/img-3.jpg" alt="Doctors" width={500} height={500} className="img-fluid" />
+                            <Image src="/images/images/about/img-3.jpg" alt="Doctors" width={500} height={300} className="img-fluid" />
                             <div className="contact-box">
                                 <i className="fas fa-phone-alt"></i>
                                 <span>+23 345 67980</span>

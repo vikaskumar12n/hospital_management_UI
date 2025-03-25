@@ -28,7 +28,7 @@ export default function Footer() {
                         <h5 className="footer-title">Department</h5>
                         <ul className="footer-links">
                             <li><Link href="#">Surgery</Link></li>
-                            <li><Link href="#">Women's Health</Link></li>
+                            <li><Link href="#">Women&apos;s Health</Link></li>
                             <li><Link href="#">Radiology</Link></li>
                             <li><Link href="#">Cardioc</Link></li>
                             <li><Link href="#">Medicine</Link></li>
@@ -67,10 +67,9 @@ export default function Footer() {
                         &copy; Copyright Reserved to <strong>Novena</strong> by <strong>Themefisher</strong>
                     </p>
                     <div className="subscribe-form">
-                        <input type="email" placeholder="Your Email address" />
-                        <button>SUBSCRIBE</button>
-                    </div>
-                    <p>Distributed by <strong>Themewagon</strong></p>
+  <input type="email" placeholder="Your Email address" />
+  <button className="subscribe-btn">SUBSCRIBE</button>
+</div>          <p>Distributed by <strong>Themewagon</strong></p>
                 </div>
             </div>
         </footer>
